@@ -43,7 +43,7 @@ export default class Greeter extends React.Component<IInfo, IInfo>
 				<div className="title">
 					<h2>Hello {this.props.name}</h2>
 				</div>
-				<p className="content">good luck, hope u like this project.</p>
+				<p className="content">good luck, i hope u like this project.</p>
 			</div>
 		);
 	}
