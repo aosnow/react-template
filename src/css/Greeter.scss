@@ -1,0 +1,16 @@
+$title-bgcolor : #27a6e3;
+
+.title{
+	width            : 100%;
+	padding          : 5px;
+	text-align       : center;
+	background-color : $title-bgcolor;
+
+	h2{
+		color : #ffffff;
+	}
+
+}
+.content{
+	padding : 10px;
+}
