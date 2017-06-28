@@ -15,8 +15,11 @@
 		"trailing-comma": [ true, { "multiline": "never", "singleline": "never" } ],
 		"one-line": [ true, "check-whitespace" ],
 		"prefer-const": false,
-		"quotemark": [ true, "single", "avoid-escape", "jsx-double" ],
+		"quotemark": false,
 		"member-access": true,
+		"no-console": false,
+		"no-eval": false,
+		"ordered-imports": false,
 		"member-ordering": [
 			true, {
 				"order": [
@@ -34,7 +37,6 @@
 		],
 		"whitespace": [
 			true,
-			"check-branch",
 			"check-decl",
 			"check-module",
 			"check-operator",
