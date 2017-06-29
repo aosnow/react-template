@@ -4,18 +4,19 @@
 	"jsRules": {
 		"indent": [ "tabs" ],
 		"linebreak-style": [ "CRLF" ],
-		"max-line-length": [ true, 120 ],
+		"max-line-length": [ true, 150 ],
 		"trailing-comma": [ true, { "multiline": "never", "singleline": "never" } ],
 		"one-line": [ true, "check-whitespace" ]
 	},
 	"rules": {
 		"indent": [ "tabs" ],
 		"linebreak-style": [ "CRLF" ],
-		"max-line-length": [ true, 120 ],
+		"max-line-length": [ true, 150 ],
 		"trailing-comma": [ true, { "multiline": "never", "singleline": "never" } ],
 		"one-line": [ true, "check-whitespace" ],
 		"prefer-const": false,
 		"quotemark": false,
+		"object-literal-sort-keys": false,
 		"member-access": true,
 		"no-console": false,
 		"no-eval": false,

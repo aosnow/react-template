@@ -36,6 +36,7 @@ const pages = require( './plugins/HtmlWebpackPlugin' )( TPL_DIR );
 Array.prototype.push.apply( plugins, pages );
 
 module.exports = {
+	devtool: 'cheap-module-eval-source-map',
 	entry: {
 		app: './src/app.tsx',
 		vendor: [ 'react', 'react-dom' ]
