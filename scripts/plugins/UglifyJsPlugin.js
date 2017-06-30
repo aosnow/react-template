@@ -4,7 +4,7 @@
 const Webpack = require( "webpack" );
 module.exports = new Webpack.optimize.UglifyJsPlugin( {
 	compress: true,
-	beautify: true,
+	beautify: false,
 	mangle: {
 		// 跳过这些
 		except: [ '$super', '$', 'exports', 'require' ]

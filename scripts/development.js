@@ -53,6 +53,7 @@ module.exports = {
 	module: loader,
 	plugins: plugins,
 	resolve: {
+		modules: [ Path.resolve( SRC_DIR, "modules" ), "node_modules" ],
 		extensions: [ '.scss', '.js', '.ts', '.tsx', '.json' ]
 	},
 	devServer: {
