@@ -21,6 +21,9 @@
 		"no-console": false,
 		"no-eval": false,
 		"ordered-imports": false,
+		"jsx-no-lambda": false,
+		"jsx-alignment": false,
+		"jsx-no-multiline-js": false,
 		"member-ordering": [
 			true, {
 				"order": [
@@ -60,7 +63,8 @@
 				"variable-declaration": "nospace"
 			}
 		],
-		"variable-name": [ true, "ban-keywords", "check-format", "allow-leading-underscore" ]
+		"variable-name": [ true, "ban-keywords", "allow-leading-underscore" ],
+		"interface-name": false
 	},
 	"rulesDirectory": [ ]
 }
